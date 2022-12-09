@@ -5,8 +5,8 @@
 
 ~~9/15일 안드로이드 50% 완료..~~ <br>
 
-'''c
- /*private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+'''
+ private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
 
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         firebaseAuth.signInWithCredential(credential)
@@ -28,7 +28,7 @@
                         }
                     }
                 });
-    }*/
+    }
 
 '''
 
