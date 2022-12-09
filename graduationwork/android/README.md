@@ -154,6 +154,57 @@ private void send(){
 <img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>
 
 </div>
+
+<h1>11월 10일</h1>
+ 댓글 달기 구현 완료
+ 
+ ```c
+ 
+  public void getBoard() {
+        mDatabase.child("board").child("comment").child(board_uid).child(board_key).addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                Map<String, String> map = (Map) dataSnapshot.getValue();
+                commentListView.setAdapter(commentAdapter);
+                int count = 0;
+
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Board board = snapshot.getValue(Board.class);
+
+                    arr_uid.add(board.getUid());
+                    arr_board_key.add(snapshot.getKey());
+
+                    commentAdapter.addItem(board.getName(), board.getDate(), board.getComment());
+
+                    count += 1;
+                }
+                textView_count.setText("댓글 " + Integer.toString(count));
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+    
+```
+ 
  
 ~~11월 14일 오류 수정 100%~~<br>
 ~~11월 15일 최종 발표~~<br>
