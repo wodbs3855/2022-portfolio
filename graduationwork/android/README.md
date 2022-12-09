@@ -50,7 +50,7 @@
 
 ```c
 
-public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 할려고 했는데 일단 text만 따로 뽑기로 하겠습니다
+public void getBoard() { 
         mDatabase.child("board").child("text").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
@@ -100,6 +100,15 @@ public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 �
 ```    
 
 <img src="https://user-images.githubusercontent.com/51393580/206732303-c75d8970-82b6-4d38-a56c-b870f45629a6.png" width ="350" height="600"/>
+ 
+ <h1>10월 5일 <h1>
+  마이페이지 디자인
+  
+ <div> 
+  <img src="https://user-images.githubusercontent.com/51393580/206747290-d12e5518-061a-4852-969b-611e1e4270b0.png" width ="350" height="600"/>
+  
+  <img src="https://user-images.githubusercontent.com/51393580/206747293-e3c7e526-134c-4bfb-93a7-f12b973cac8c.png" width ="350" height="600"/>
+  </div>
 
 
 
