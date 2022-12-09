@@ -31,7 +31,8 @@
 
 <h1>9월 22일 <h1>
  <p>게시판 디자인</p>
-
+디자인은 완료 코드 구현만 하면 
+ 
 <div>
  
  <img src="https://user-images.githubusercontent.com/51393580/206746328-4868c690-6b0c-48dd-8f38-7f8f3ae62e81.png" width ="350" height="600"/>
@@ -103,6 +104,8 @@ public void getBoard() {
  
  <h1>10월 5일 <h1>
   마이페이지 디자인
+  
+  <p>개인 계정 관련 코드만 완성하면 완료</p>
   
  <div> 
   <img src="https://user-images.githubusercontent.com/51393580/206747290-d12e5518-061a-4852-969b-611e1e4270b0.png" width ="350" height="600"/>
