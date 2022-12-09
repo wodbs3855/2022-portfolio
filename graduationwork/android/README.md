@@ -115,6 +115,9 @@ public void getBoard() {
   <img src="https://user-images.githubusercontent.com/51393580/206747293-e3c7e526-134c-4bfb-93a7-f12b973cac8c.png" width ="350" height="600"/>
   </div>
 
+<h1>10월 20일</h1>
+~~게시판 조회 오류 발견 ~~
+이전 버전으로 돌아가 수정완료
 
 
 
