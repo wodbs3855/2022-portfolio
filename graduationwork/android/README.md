@@ -6,6 +6,7 @@
 ~~9/15일 안드로이드 50% 완료..~~ <br>
 
 <p>파이어베이스와 안드로이드 스튜디오 연동을 통해 이메일을 통한 로그인 구현 </p>
+
 ```c 
  private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
