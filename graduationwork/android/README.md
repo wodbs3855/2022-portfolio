@@ -33,13 +33,15 @@
 ```
 
 <h1>9월 22일 <h1>
- 게시판 디자인
+ <p>게시판 디자인</p>
 
-
+<div>
+ 
  <img src="https://user-images.githubusercontent.com/51393580/206745742-cd81cc2c-177a-44d4-9bf8-f6033d70dd03.png" width ="350" height="600"/>
 
 <img src="https://user-images.githubusercontent.com/51393580/206745749-1ba0ac18-3750-4a7d-882f-ab3baa3c154f.png" width ="350" height="600"/>
-
+ 
+</div>
 
 
 <h1>9월30일 70%완료 </h1><br>
