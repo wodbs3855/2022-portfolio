@@ -27,10 +27,12 @@
 
 <img src="https://user-images.githubusercontent.com/51393580/206732255-b79ec57d-4f4f-46a9-b183-e0b33398cdb3.png" width ="350" height="600"/>
 
+
+<p>
 이거 쓰면 어캐됨?
-
-
+</p>
 </div>
+
 <div>
 
 <img src="https://user-images.githubusercontent.com/51393580/206732283-b04a15f8-2a88-4134-b15a-ea48abfc87ab.png" width ="350" height="600"/>
