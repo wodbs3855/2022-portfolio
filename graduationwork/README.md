@@ -49,7 +49,10 @@
 <h1>아두이노</h1>
 
 
+<img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201589734-9e650426-bf64-4272-8b0e-c8a2db319efd.PNG"/><br>
+
 <div>
+
 
 <img src="https://user-images.githubusercontent.com/51393580/206737103-c0e5043a-04f7-4c63-8e06-2ff2c82941e7.jpg" width ="350" height="600"/>
 
@@ -57,6 +60,8 @@
 
 
 <img src="https://user-images.githubusercontent.com/51393580/206737658-2fab2615-42e6-4ef9-aaa5-e1ee14beade0.jpg" width ="350" height="600"/>
+
+
 
  </div>
 
