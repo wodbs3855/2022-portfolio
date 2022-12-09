@@ -116,7 +116,8 @@ public void getBoard() {
   
   <h1>10월 13일 </h1>
 계정 관련 설정들 완료 <br>
-현재 아이디 변경은 불가능
+이름과 비밀번호는 이메일을 통한 변경 가능 <br>
+현재 아이디 변경은 불가능 
 
 ```c
 
@@ -126,8 +127,6 @@ private void send(){
                 if (task.isSuccessful()){
                     Toast.makeText(this,"이메일을 보냈습니다.",Toast.LENGTH_SHORT).show();
                 }
-
-
             });
         }
         else {
@@ -145,7 +144,10 @@ private void send(){
 <br>
 이전 버전으로 돌아가 수정완료
 
+<h1>11월 5일 </h1>
+디자인 담당과 디자인 합치기
 
+<img src="https://user-images.githubusercontent.com/51393580/206749996-05484850-b33f-4de2-834d-27f70300e1df.png" width ="350" height="600"/>
 
 ~~11월 14일 오류 수정 100%~~<br>
 ~~11월 15일 최종 발표~~<br>
