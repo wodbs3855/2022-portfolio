@@ -147,8 +147,14 @@ private void send(){
 <h1>11월 5일 </h1>
 디자인 담당과 디자인 합치기
 
+<div>
+
 <img src="https://user-images.githubusercontent.com/51393580/206749996-05484850-b33f-4de2-834d-27f70300e1df.png" width ="350" height="600"/>
 
+<img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>
+
+</div>
+ 
 ~~11월 14일 오류 수정 100%~~<br>
 ~~11월 15일 최종 발표~~<br>
 완성
