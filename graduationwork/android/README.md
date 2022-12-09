@@ -108,12 +108,35 @@ public void getBoard() {
   마이페이지 디자인 <br>
   개인 계정 관련 코드만 완성하면 완료
   
-  
  <div> 
   <img src="https://user-images.githubusercontent.com/51393580/206747290-d12e5518-061a-4852-969b-611e1e4270b0.png" width ="350" height="600"/>
   
   <img src="https://user-images.githubusercontent.com/51393580/206747293-e3c7e526-134c-4bfb-93a7-f12b973cac8c.png" width ="350" height="600"/>
   </div>
+  
+  <h1>10월 13일 </h1>
+계정 관련 설정들 완료 <br>
+현재 아이디 변경은 불가능
+
+```c
+
+private void send(){
+        if(email.length() !=0){
+            firebaseAuth.sendPasswordResetEmail(email).addOnCompleteListener(task -> {
+                if (task.isSuccessful()){
+                    Toast.makeText(this,"이메일을 보냈습니다.",Toast.LENGTH_SHORT).show();
+                }
+
+
+            });
+        }
+        else {
+            Toast.makeText(this,"입력을 완료해 주세요.",Toast.LENGTH_SHORT).show();
+        }
+
+    }
+    ```
+  
 
 <h1>10월 20일</h1>
 
