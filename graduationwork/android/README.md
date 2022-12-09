@@ -29,7 +29,7 @@
     }
 ```
 
-<h1>9월 22일 <h1>
+<h1>9월 22일 </h1>
  
  게시판 디자인 <br>
  디자인은 완료 코드 구현만 하면 
@@ -103,8 +103,8 @@ public void getBoard() {
 
 <img src="https://user-images.githubusercontent.com/51393580/206732303-c75d8970-82b6-4d38-a56c-b870f45629a6.png" width ="350" height="600"/>
  
- <h1>10월 5일 <h1>
-  
+ <h1>10월 5일 </h1>
+ 
   마이페이지 디자인 <br>
   개인 계정 관련 코드만 완성하면 완료
   
