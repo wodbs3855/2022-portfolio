@@ -4,6 +4,21 @@
 
 <p>안드로이드 </p>
 
+<p align="center">
+  <br>
+  <img width = "80%" src= "https://user-images.githubusercontent.com/73435598/201158032-f6528e9f-51fe-4169-99f0-46038a35c87d.png" />
+  <br>
+</p>
+
+## 프로젝트 소개
+
+<p align="justify">
+프로젝트 개요/동기
+  바쁜 직장인과 1인가구 등을 위한 맞춤형 신발 건조기 Android App 과 Arduino 기기를 사용한 작품입니다.
+</p>
+
+
+
 <div>
 
 <img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>
