@@ -35,7 +35,9 @@
 <h1>9월30일 70%완료 </h1><br>
 
 <p>게시판 화면 만들기</p>
+
 ```c
+
 public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 할려고 했는데 일단 text만 따로 뽑기로 하겠습니다
         mDatabase.child("board").child("text").addChildEventListener(new ChildEventListener() {
             @Override
