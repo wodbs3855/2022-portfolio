@@ -17,9 +17,12 @@
   바쁜 직장인과 1인가구 등을 위한 맞춤형 신발 건조기 Android App 과 Arduino 기기를 사용한 작품입니다.
 </p>
 
-## 구성화면
+<br>
 
-<div>
+## 구성화면
+<br>
+
+<div> 
 
 <img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>
 
@@ -43,6 +46,9 @@
 <img src="https://user-images.githubusercontent.com/51393580/206732322-794d41f6-0209-4fa5-ab97-1c41cb73f29d.png" width ="350" height="600"/>
 
 </div>
+
+##주요기능
+
 
 
 
