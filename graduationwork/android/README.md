@@ -103,9 +103,9 @@ public void getBoard() {
 <img src="https://user-images.githubusercontent.com/51393580/206732303-c75d8970-82b6-4d38-a56c-b870f45629a6.png" width ="350" height="600"/>
  
  <h1>10월 5일 <h1>
-  마이페이지 디자인
   
-  <p>개인 계정 관련 코드만 완성하면 완료</p>
+  마이페이지 디자인
+  개인 계정 관련 코드만 완성하면 완료
   
  <div> 
   <img src="https://user-images.githubusercontent.com/51393580/206747290-d12e5518-061a-4852-969b-611e1e4270b0.png" width ="350" height="600"/>
