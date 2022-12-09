@@ -32,9 +32,70 @@
     }
 ```
 
+<h1>9월30일 70%완료 </h1><br>
+
+<p>게시판 화면 만들기</p>
+```c
+public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 할려고 했는데 일단 text만 따로 뽑기로 하겠습니다
+        mDatabase.child("board").child("text").addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                Map<String, String> map = (Map) dataSnapshot.getValue();
+                mainListView.setAdapter(listAdapter);
+
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Board board = snapshot.getValue(Board.class);
+
+                    arr_uid.add(board.getUid());
+                    arr_board_key.add(snapshot.getKey());
+                    arr_order_date.add(board.getOrder_date());
+
+                    listAdapter.addItem(board.getTitle(), board.getDate(), board.getName(), board.getClick(), board.getOrder_date());
+                }
+
+                Comparator<Board> textDesc = new Comparator<Board>() {
+                    @Override
+                    public int compare(Board item1, Board item2) {
+                        return item2.getOrder_date().compareTo(item1.getOrder_date());
+                    }
+                };
+                Collections.sort(itemList, textDesc);
+                listAdapter.notifyDataSetChanged();
+
+                Comparator<String> dateDesc = new Comparator<String>() {
+                    @Override
+                    public int compare(String item1, String item2) {
+                        return item2.compareTo(item1);
+                    }
+                };
+                Collections.sort(arr_order_date, dateDesc);
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }```    
 
 
-~~9월30일 70%완료~~ <br>
+
+
 ~~11월 14일 오류 수정 100%~~<br>
 ~~11월 15일 최종 발표~~<br>
 완성
