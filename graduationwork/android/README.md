@@ -35,6 +35,7 @@
 <h1>9월30일 70%완료 </h1><br>
 
 <p>게시판 화면 만들기</p>
+커뮤니티 기능 
 
 ```c
 
@@ -44,7 +45,6 @@ public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 �
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 Map<String, String> map = (Map) dataSnapshot.getValue();
                 mainListView.setAdapter(listAdapter);
-
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Board board = snapshot.getValue(Board.class);
 
@@ -72,25 +72,17 @@ public void getBoard() { // 원래는 텍스트하고 포토 하고 구분을 �
                 };
                 Collections.sort(arr_order_date, dateDesc);
             }
-
             @Override
             public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-
             }
-
             @Override
             public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
-
             }
-
             @Override
             public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
             }
         });
     }
