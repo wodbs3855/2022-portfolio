@@ -1,9 +1,6 @@
 
 <h1> 졸업작품 Care Kicks</h1>
 
-
-<p>안드로이드 </p>
-
 <p align="center">
   <br>
   <img width = "70%" src= "https://user-images.githubusercontent.com/73435598/201158032-f6528e9f-51fe-4169-99f0-46038a35c87d.png" />
