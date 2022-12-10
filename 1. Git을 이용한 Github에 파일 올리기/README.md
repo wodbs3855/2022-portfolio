@@ -16,4 +16,4 @@
 
 <h2>3번. 깃허브 계정추가하기 </h2>
   
-<img src="https://user-images.githubusercontent.com/51393580/206858649-0288368e-7eb5-4fdc-8d82-cf1fc8d3f61c.png" width ="650" height="500"/>
+<img src="https://user-images.githubusercontent.com/51393580/206858649-0288368e-7eb5-4fdc-8d82-cf1fc8d3f61c.png" width ="550" height="400"/>
