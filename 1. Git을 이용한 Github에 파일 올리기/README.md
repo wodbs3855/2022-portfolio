@@ -53,13 +53,18 @@
 <div>
   <p>1. Git에서 Push누르기</p>
   <p>2. define remote누르기</p>
-  <p>3. URL에 자신의 Github저장소 주소 넣기</p>
-  <p>4. Push눌러 자신의 저장소에 파일 올리기</p>
+  
+  
 <img src="https://user-images.githubusercontent.com/51393580/206859655-25fecad1-cc87-4389-9c17-d03b03fd930e.png" width ="200" height="400"/>
 <img src="https://user-images.githubusercontent.com/51393580/206859671-006edec4-5681-46cc-b4f9-19338b4174c5.png" width ="600" height="400"/>
+  <p>3. URL에 자신의 Github저장소 주소 넣기</p>
 <img src="https://user-images.githubusercontent.com/51393580/206859682-f30dd783-f37f-4022-889e-e5350e58d28d.png" width ="700" height="300"/>
-<img src="https://user-images.githubusercontent.com/51393580/206860011-8f6d5da7-5ecf-49e6-9097-2650ebb4085b.png" width ="700" height="300"/>
-  
+  <p>4. Push눌러 자신의 저장소에 파일 올리기</p>
+<img src="https://user-images.githubusercontent.com/51393580/206860011-8f6d5da7-5ecf-49e6-9097-2650ebb4085b.png" width ="600" height="300"/>
+  <p>5. 잘 올라온것을 볼수있음</p>
+  <img src="https://user-images.githubusercontent.com/51393580/206860263-4022890f-abb5-4a13-b86d-c59cb5a1f8c5.png" width ="600" height="300"/>
+ 
+
 </div>
 
 
