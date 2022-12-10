@@ -62,7 +62,7 @@
   <p>4. Push눌러 자신의 저장소에 파일 올리기</p>
 <img src="https://user-images.githubusercontent.com/51393580/206860011-8f6d5da7-5ecf-49e6-9097-2650ebb4085b.png" width ="600" height="300"/>
   <p>5. 잘 올라온것을 볼수있음</p>
-  <img src="https://user-images.githubusercontent.com/51393580/206860263-4022890f-abb5-4a13-b86d-c59cb5a1f8c5.png" width ="600" height="300"/>
+  <img src="https://user-images.githubusercontent.com/51393580/206860263-4022890f-abb5-4a13-b86d-c59cb5a1f8c5.png" width ="900" height="400"/>
  
 
 </div>
