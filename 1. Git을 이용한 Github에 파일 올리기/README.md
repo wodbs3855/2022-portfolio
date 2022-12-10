@@ -22,6 +22,45 @@
 
 <h2>4번. 추가된 계정이 보임 </h2>
 
-<p>올바르게 연결되면 추가된 계정이 보임</p>
+<p>성공하면 추가된 계정이 보임</p>
 <img src="https://user-images.githubusercontent.com/51393580/206858889-27855d64-b089-46d7-b7e9-4fb5a9f0349e.png" width ="650" height="400"/>
+
+<h2>5번. VCS의 create Git Repository로 Github에 올릴 파일 정하기</h2>
+<div>
+  
+<img src="https://user-images.githubusercontent.com/51393580/206859131-a65493e3-9de0-49d2-8699-98058f566a62.png" width ="450" height="400"/>
+
+<img src="https://user-images.githubusercontent.com/51393580/206859252-c7aac951-f129-4203-b624-9b8a3d2a262b.png" width ="350" height="400"/>
+
+</div>
+
+
+<h2>6번. 현재 commit되지 않은 파일들은 빨간색</h2>
+<img src="https://user-images.githubusercontent.com/51393580/206859343-c46ee8cb-d303-4932-976d-164da5c8cc1d.png" width ="300" height="550"/>
+
+<h2>7번. VCS가 git으로 변경</h2>
+<p>1. Git에서 Commit하기</p>
+<p>2. 메시지 작성하여 commit하기</p>
+<div>
+  
+<img src="https://user-images.githubusercontent.com/51393580/206859462-eab0d3e9-ec1a-4f53-8545-f5cb7067533a.png" width ="300" height="550"/>
+
+<img src="https://user-images.githubusercontent.com/51393580/206859495-5086c7b2-f51a-4557-b3d7-f8af413c80a2.png" width ="400" height="550"/>
+  
+</div>
+  
+<h2>8번. Push하기</h2>
+<div>
+  <p>1. Git에서 Push누르기</p>
+  <p>2. define remote누르기</p>
+  <p>3. URL에 자신의 Github저장소 주소 넣기</p>
+  <p>4. Push눌러 자신의 저장소에 파일 올리기</p>
+<img src="https://user-images.githubusercontent.com/51393580/206859655-25fecad1-cc87-4389-9c17-d03b03fd930e.png" width ="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/51393580/206859671-006edec4-5681-46cc-b4f9-19338b4174c5.png" width ="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/51393580/206859682-f30dd783-f37f-4022-889e-e5350e58d28d.png" width ="700" height="300"/>
+<img src="https://user-images.githubusercontent.com/51393580/206860011-8f6d5da7-5ecf-49e6-9097-2650ebb4085b.png" width ="700" height="300"/>
+  
+</div>
+
+
 
