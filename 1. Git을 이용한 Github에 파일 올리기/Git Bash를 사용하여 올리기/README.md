@@ -71,5 +71,5 @@ git push origin +main
 <img src="https://user-images.githubusercontent.com/51393580/206871202-9182fb35-476a-406a-922b-ff2a30faa4a0.png" width ="700" height="500"/>
 
 ---
-[Gitbsh로 올린 저장소](https://github.com/wodbs3855/gitbash.git)<
+[Gitbsh로 올린 저장소](https://github.com/wodbs3855/gitbash.git)
 [참고한 사이트들](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site)
