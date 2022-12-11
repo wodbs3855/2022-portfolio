@@ -53,7 +53,7 @@
 
 <p>파이어베이스에 게시판 데이터 올리기</p>
 
-<img src="https://user-images.githubusercontent.com/51393580/206906266-7ffbb619-c721-4f0b-8ecc-16b5a0372787.png" width ="600" height="500"/>
+<img src="https://user-images.githubusercontent.com/51393580/206906266-7ffbb619-c721-4f0b-8ecc-16b5a0372787.png" width ="400" height="600"/>
 
 
 <p>파이어베이스에 올린 데이터를 가져와 보여주기</p>
@@ -216,6 +216,9 @@ private void send(){
 <h1>11월 12일 컨텍스트 메뉴를 이용한 길게 누르면 메뉴 나오기</h1>
 <p>1. res아래 menu파일을 만들고 context파일 생성</p>
 
+
+  <img src="https://user-images.githubusercontent.com/51393580/206913572-862d5016-dbe8-4b07-8a98-716fc9afb619.png" width ="400" height="400"/>
+
 컨텍스트 메뉴 설정
 
 ```java
@@ -278,7 +281,11 @@ private void send(){
         return super.onContextItemSelected(item);
     }
 
-```    
+```   
+
+완성된 컨텍스트 
+
+  <img src="https://user-images.githubusercontent.com/51393580/206913628-356fc537-b8c1-4add-909d-faf5b5b3ff7e.png" width ="350" height="600"/>
 
 
 
