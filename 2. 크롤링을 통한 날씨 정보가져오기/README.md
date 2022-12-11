@@ -6,7 +6,7 @@
 <p>인터넷 권한을 주는 코드와, http통신을 가능하게 해주는 코드</p> 
 AndroidManifest.xml에서 코드 추가 <br>
 
-```c
+```java
 <uses-permission android:name="android.permission.INTERNET" />
 //application 태그 안에
  android:usesCleartextTraffic="true"
@@ -15,7 +15,7 @@ AndroidManifest.xml에서 코드 추가 <br>
 
 <h3>2. gradle의 Module 수준 파일을 열어서 Jsoup 라이브러리를 implementation 시키기</h3>
 
-```c
+```java
 implementation 'org.jsoup:jsoup:1.13.1
 
 ```
@@ -25,7 +25,7 @@ Jsoup를 onCreate 에서 실행하게 되면, 웹크롤링 해오는 로딩시�
 
 **따라서 Thread를 하나 더 만들어주고, 그 쓰레드에서 웹크롤링을 수행함** <br>
 
-```c
+```java
 new Thread() {
             @Override
             public void run() {
