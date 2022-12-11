@@ -213,7 +213,75 @@ private void send(){
     }
     
 ```
- 
+<h1>11월 12일 컨텍스트 메뉴를 이용한 길게 누르면 메뉴 나오기</h1>
+<p>1. res아래 menu파일을 만들고 context파일 생성</p>
+
+컨텍스트 메뉴 설정
+
+```java
+
+@Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+
+        MenuInflater inflater= getMenuInflater();
+        inflater.inflate(R.menu.context, menu);
+
+        super.onCreateContextMenu(menu, v, menuInfo);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+
+        //context.xml파일에 작성한 메뉴항목들의 id를 식별하여 토스트 보여주기
+        switch ( item.getItemId() ){
+            case R.id.menu_mod:
+                button_del.setVisibility(View.INVISIBLE);
+                button_edit.setVisibility(View.INVISIBLE);
+                button_add.setVisibility(View.INVISIBLE);
+                editComment.setVisibility(View.INVISIBLE);
+                button_ok.setVisibility(View.VISIBLE);
+                button_cancle.setVisibility(View.VISIBLE);
+                textView_count.setVisibility(View.INVISIBLE);
+                commentListView.setVisibility(View.INVISIBLE);
+                textView_read_board.setText("게시글 수정");
+
+                editText_read_board_title.setText(textView_read_board_title2.getText().toString());
+                textView_read_board_title2.setVisibility(View.INVISIBLE);
+                editText_read_board_title.setVisibility(View.VISIBLE);
+                editText_read_board_content.setText(textView_read_board_content.getText().toString());
+                textView_read_board_content.setVisibility(View.INVISIBLE);
+                editText_read_board_content.setVisibility(View.VISIBLE);
+                
+                break;
+
+            case R.id.menu_delete:
+                DialogInterface.OnClickListener confirm = new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        mDatabase.child("board").child("text").child(board_uid).child(board_key).removeValue();
+                        Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                };
+                DialogInterface.OnClickListener cancle = new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                    }
+                };
+                new AlertDialog.Builder(ReadBoardActivity.this).setTitle("게시글을 삭제하시겠습니까?")
+                        .setPositiveButton("삭제", confirm)
+                        .setNegativeButton("취소", cancle).show();
+                break;
+        }
+
+        return super.onContextItemSelected(item);
+    }
+
+```    
+
+
+
 <h1>11월 14일 </h1>
 
 ~~게시판 조회오류와 블루투스 오작동~~
