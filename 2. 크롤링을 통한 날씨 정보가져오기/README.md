@@ -49,6 +49,7 @@ new Thread() {
 
 
 <h3>6. try 구문 안에 웹크롤링 코드를 작성</h3>
+bundle을 이용하여 데이터 전달
   <img src="https://user-images.githubusercontent.com/51393580/206897030-9c4642ce-5aa1-4a86-90b4-61cc7e6a8555.png" width ="850" height="400"/>
   
   
