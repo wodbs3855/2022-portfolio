@@ -47,7 +47,7 @@
 
 <hr>
 
-[적용한 파일](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork/android/Carekicks) <br>
-[참고한 사이트들](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site)
+[적용한 파일 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork/android/Carekicks) <br>
+[참고한 사이트들 바로가기](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site)
 
 
