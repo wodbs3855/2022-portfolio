@@ -54,7 +54,7 @@ bundle을 이용하여 데이터 전달
   
   
 <h3>7. Handler를 이용해서 새로운 쓰레드에서 했던 작업의 결과물을 주고받기</h3>
-<p>가져온 날씨의 데이터에 따라 보여주는 이미지가 달라짐</p>
+<p>bundle로 가져온 날씨의 데이터에 따라 보여주는 이미지가 달라짐</p>
 
   <img src="https://user-images.githubusercontent.com/51393580/206897032-332246da-69f1-45bb-89e3-449f9ac8e071.png" width ="850" height="400"/>
   
