@@ -51,9 +51,9 @@
 <p>게시판(커뮤니티)화면 만들기</p>
 
 
-<p>파이어베이스에 데이터 올리기</p>
+<p>파이어베이스에 게시판 데이터 올리기</p>
 
-
+<img src="https://user-images.githubusercontent.com/51393580/206906266-7ffbb619-c721-4f0b-8ecc-16b5a0372787.png" width ="600" height="500"/>
 
 
 <p>파이어베이스에 올린 데이터를 가져와 보여주기</p>
@@ -109,11 +109,12 @@ public void getBoard() {
     }
 ```    
 
+<p>완성된 게시판</p>
+
 <img src="https://user-images.githubusercontent.com/51393580/206732303-c75d8970-82b6-4d38-a56c-b870f45629a6.png" width ="350" height="600"/>
  
- <h1>10월 5일 </h1>
+ <h1>10월 5일 마이페이지 디자인</h1>
  
-  마이페이지 디자인 <br>
   개인 계정 관련 코드만 완성하면 완료
   
  <div> 
@@ -122,8 +123,8 @@ public void getBoard() {
   <img src="https://user-images.githubusercontent.com/51393580/206747293-e3c7e526-134c-4bfb-93a7-f12b973cac8c.png" width ="350" height="600"/>
   </div>
   
-  <h1>10월 13일 </h1>
-계정 관련 설정들 완료 <br>
+  <h1>10월 13일 마이페이지 계정 관련 설정들 완료</h1>
+ 
 이름과 비밀번호는 이메일을 통한 변경 가능 <br>
 현재 아이디 변경은 불가능 
 
@@ -149,6 +150,7 @@ private void send(){
 <h1>10월 20일</h1>
 
 ~~게시판 조회 오류 발견~~ 
+
 <br>
 이전 버전으로 돌아가 수정완료
 
@@ -163,8 +165,7 @@ private void send(){
 
 </div>
 
-<h1>11월 10일</h1>
- 댓글 달기 구현 완료
+<h1>11월 10일 댓글 달기 구현 완료</h1>
  
  ```java
  
