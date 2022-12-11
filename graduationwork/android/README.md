@@ -1,10 +1,15 @@
 ### android 
 
-<h1>9/15일 안드로이드 50% 완료</h1> <br>
+~~안드로이드와 파이어베이스 연동 완료~~
+~~기본 구성 배치 완료~~
+
+
+
+<h1>9/15일 로그인 기능 구현 완료</h1> <br>
 
 <p>파이어베이스와 안드로이드 스튜디오 연동을 통해 이메일을 통한 로그인 구현 </p>
 
-```c 
+```java
  private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         firebaseAuth.signInWithCredential(credential)
@@ -29,10 +34,9 @@
     }
 ```
 
-<h1>9월 22일 </h1>
+<h1>9월 22일 게시판 디자인 완료</h1>
  
- 게시판 디자인 <br>
- 디자인은 완료 코드 구현만 하면 
+ ListAdapter로 구조와 디자인 완료 코드만 구현하면 됨 
  
 <div>
  
@@ -40,17 +44,21 @@
 
 <img src="https://user-images.githubusercontent.com/51393580/206746342-8979474c-c223-4c43-b5e3-54a7591c65fe.png" width ="350" height="600"/>
  
-
- 
 </div>
 
-
-<h1>9월30일 70%완료 </h1><br>
+<h1>9월30일 게시판 코딩 완료 </h1><br>
 
 <p>게시판(커뮤니티)화면 만들기</p>
- 
 
-```c
+
+<p>파이어베이스에 데이터 올리기</p>
+
+
+
+
+<p>파이어베이스에 올린 데이터를 가져와 보여주기</p>
+ 
+```java
 
 public void getBoard() { 
         mDatabase.child("board").child("text").addChildEventListener(new ChildEventListener() {
@@ -119,7 +127,7 @@ public void getBoard() {
 이름과 비밀번호는 이메일을 통한 변경 가능 <br>
 현재 아이디 변경은 불가능 
 
-```c
+```java
 
 private void send(){
         if(email.length() !=0){
@@ -158,7 +166,7 @@ private void send(){
 <h1>11월 10일</h1>
  댓글 달기 구현 완료
  
- ```c
+ ```java
  
   public void getBoard() {
         mDatabase.child("board").child("comment").child(board_uid).child(board_key).addChildEventListener(new ChildEventListener() {
