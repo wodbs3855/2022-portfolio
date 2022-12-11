@@ -39,7 +39,7 @@ new Thread() {
 ```
 <h3>4. 크롤링을 통해 가져올 데이터가 있는 URL복사</h3>
 
-  <img src="https://user-images.githubusercontent.com/51393580/206897028-c45df1ff-7107-47c3-a05f-0e94fb9c3f6e.png" width ="1000" height="150"/>
+  <img src="https://user-images.githubusercontent.com/51393580/206897028-c45df1ff-7107-47c3-a05f-0e94fb9c3f6e.png" width ="100%" height="100%"/>
 
 <h3>5. F12를 눌러 개발자 도구를 활성화</h3>
 <p>1. 커서모양이 있는 버튼 누르기(select an element in the page to inspect it)</p> 
@@ -57,4 +57,8 @@ bundle을 이용하여 데이터 전달
 <p>가져온 날씨의 데이터에 따라 보여주는 이미지가 달라짐</p>
 
   <img src="https://user-images.githubusercontent.com/51393580/206897032-332246da-69f1-45bb-89e3-449f9ac8e071.png" width ="850" height="400"/>
+  
+
+<img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>  
+
 
