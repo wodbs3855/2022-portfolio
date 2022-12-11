@@ -61,4 +61,10 @@ bundle을 이용하여 데이터 전달
 
 <img src="https://user-images.githubusercontent.com/51393580/206732146-6f3b32da-5c16-43ed-b0cc-81f9ca4bda32.png" width ="350" height="600"/>  
 
+<hr>
+
+[참고한 사이트들](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site)
+[클롤링이 적용된 파일 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork)
+
+
 
