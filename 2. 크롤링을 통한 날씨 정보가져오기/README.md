@@ -64,7 +64,7 @@ bundle을 이용하여 데이터 전달
 <hr>
 
 [참고한 사이트들 ](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site) <br>
-[크롤링이 적용된 파일 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork)
+[크롤링이 적용된 파일 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork) <br>
 [파이어베이스를 이용한 게시판 ](https://github.com/wodbs3855/2022-portfolio/tree/main/3.%20%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
 
