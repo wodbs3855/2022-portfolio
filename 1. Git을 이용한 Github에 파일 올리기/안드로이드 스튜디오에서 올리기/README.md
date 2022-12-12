@@ -73,6 +73,6 @@
 
 [올린 저장소로 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/graduationwork/android/Carekicks) <br>
 [참고한 사이트들 ](https://github.com/wodbs3855/2022-portfolio/wiki/Reference-Site) <br>
-[크롤링을 통한 날씨 정보가져오기 ](https://github.com/wodbs3855/2022-portfolio/tree/main/2.%20%ED%81%AC%EB%A1%A4%EB%A7%81%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EB%82%A0%EC%94%A8%20%EC%A0%95%EB%B3%B4%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
+[크롤링을 통한 날씨 정보가져오기 바로가기](https://github.com/wodbs3855/2022-portfolio/tree/main/2.%20%ED%81%AC%EB%A1%A4%EB%A7%81%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EB%82%A0%EC%94%A8%20%EC%A0%95%EB%B3%B4%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
 
 
